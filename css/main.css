@@ -93,7 +93,7 @@ a {
   position: absolute;
   top: 0;
   bottom: 0px;
-  left: 60px;
+  left: 58px;
   margin: auto;
 }
 
@@ -160,7 +160,7 @@ align-items: center;
   left: 255px;
 }
 
-.inner .inner-top .beauty:hover
+.inner .beauty:hover
 { font-weight: 500;
   color: rgb(95, 0, 128);
 
@@ -196,7 +196,7 @@ button {
   width: 10px;
   height: 10px;
   top: 3px;
-
+  
 }
 
 .inner .inner-bottom .search {
@@ -223,7 +223,7 @@ button {
 }
 
 nav{ 
-  /* margin-top: 30px;
+  margin-top: 30px;
   width: 1080px;
   height: 65px;
   top: 65px;
@@ -242,8 +242,15 @@ nav .inner {
 }
 
 nav .menu-category {
+
+  position: relative;
   display: flex;
-  justify-content: flex-start;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 1050px;
+  height: 56px;
+  margin: 0px auto;
+
 }
 
 
@@ -253,6 +260,7 @@ nav .category {
   font-weight: 500;
   color: rgb(51, 51, 51);
 
+
 }
 
 nav .main-menu {
@@ -261,18 +269,25 @@ nav .main-menu {
   /* justify-content: space-between; */
   /* position: absolute; */
   /* left: 300px; */
-  align-items: center;
-  justify-content: center;
+  margin-left: 30px;
 }
 
-nav .main-menu > a {
+nav .main-menu > li {
   /* margin-top: 50px; */
   /* justify-content: center; */
   font-size: 16px;
   font-weight: 500;
   /* padding:18px 0 0; */
   color: rgb(51, 51, 51);
-  margin-left: 60px;
+  /* margin-left: 60px; */
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 150px;
+  height: 55px;
+  padding-top: 18px;
+  line-height: 20px;
+  text-align: center;
 }
 
 nav .inner .purple {
